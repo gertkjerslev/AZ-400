@@ -1,17 +1,15 @@
-# Exam AZ- 400 : Microsoft Azure DevOps Solutions –
+# Exam AZ- 400 : Microsoft Azure DevOps Solutions
 
 # Skills Measured
 
-**The content of this exam was updated on December 3, 2019. Please continue scrolling to**
-
-**the red line section below to view the changes.**
+**The content of this exam was updated on December 3, 2019**
 
 ## Design a DevOps strategy (20-25%)
 
 **Recommend a migration and consolidation strategy for DevOps tools**
 
-- analyze existing artifact (e.g., deployment packages, NuGet, Maven, npm) and container
-    repositories
+- [analyze existing artifact (e.g., deployment packages, NuGet, Maven, npm) and container
+    repositories](https://docs.microsoft.com/en-us/azure/devops/pipelines/artifacts/artifacts-overview?view=azure-devops)
 - analyze existing test management tools
 - analyze existing work management tools
 - recommend migration and integration strategies for artifact repositories, source control,
@@ -154,15 +152,13 @@
 - implement blue-green deployments
 - implement canary deployments
 - implement progressive exposure deployments
-- scale a release pipeline to deploy to multiple endpoints (e.g., deployment groups, Azure
-    Kubernetes Service, Service Fabric)
+- scale a release pipeline to deploy to multiple endpoints (e.g., deployment groups, Azure Kubernetes Service, Service Fabric)
 
 ## Implement dependency management (5-10%)
 
 **Design a dependency management strategy**
 
-- recommend artifact management tools and practices (Azure Artifacts, npm, Maven,
-    Nuget)
+- recommend artifact management tools and practices (Azure Artifacts, npm, Maven, Nuget)
 - abstract common packages to enable sharing and reuse
 - inspect codebase to identify code dependencies that can be converted to packages
 - identify and recommend standardized package types and versions across the solution
@@ -170,10 +166,8 @@
 
 **Manage security and compliance**
 
-- inspect open source software packages for security and license compliance to align with
-    corporate standards (e.g., GPLv3)
-- configure build pipeline to access package security and license rating (e.g., Black Duck,
-    White Source)
+- inspect open source software packages for security and license compliance to align with corporate standards (e.g., GPLv3)
+- configure build pipeline to access package security and license rating (e.g., Black Duck, White Source)
 - configure secure access to package feeds
 
 ## Implement application infrastructure (15-20%)
@@ -194,8 +188,7 @@
 - manage secrets in resource templates
 - provision Azure resources
 - recommend an Infrastructure as Code (IaC) strategy
-- recommend appropriate technologies for configuration management (e.g., ARM
-    Templates, Terraform, Chef, Puppet, Ansible)
+- recommend appropriate technologies for configuration management (e.g., ARM Templates, Terraform, Chef, Puppet, Ansible)
 
 **Manage Azure Kubernetes Service infrastructure**
 
@@ -207,10 +200,8 @@
 
 - implement compliance and security scanning
 - prevent drift by using configuration management tools
-- automate configuration management by using PowerShell Desired State Configuration
-    (DSC)
-- automate configuration management by using a VM Agent with custom script
-    extensions
+- automate configuration management by using PowerShell Desired State Configuration (DSC)
+- automate configuration management by using a VM Agent with custom script extensions
 - set up an automated pipeline to inspect security and compliance
 
 ## Implement continuous feedback (10-15%)
@@ -218,8 +209,7 @@
 **Recommend and design system feedback mechanisms**
 
 - design practices to measure end-user satisfaction (e.g., Send a Smile, app analytics)
-- design processes to capture and analyze user feedback from external sources (e.g.,
-    Twitter, Reddit, Help Desk)
+- design processes to capture and analyze user feedback from external sources (e.g., Twitter, Reddit, Help Desk)
 - design routing for client application crash report data
 - recommend monitoring tools and technologies
 - recommend system and feature usage tracking tools
